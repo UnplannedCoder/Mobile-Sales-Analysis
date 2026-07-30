@@ -234,8 +234,8 @@ Through this project, I gained hands-on experience in:
 
 **Pawan Sain**
 
-- LinkedIn: https://www.linkedin.com/in/your-linkedin/
-- GitHub: https://github.com/yourusername
+- LinkedIn: https://www.linkedin.com/in/pawan-sain-18b74631b/
+- GitHub: https://github.com/UnplannedCoder
 
 ---
 
