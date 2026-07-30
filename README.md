@@ -1,242 +1,228 @@
-# 📊 Mobile Sales Analysis Dashboard | Power BI
+# 📱 Mobile Sales Analysis Dashboard | Power BI
 
-A comprehensive **Mobile Sales Analysis Dashboard** built using **Microsoft Power BI** to transform raw mobile sales data into meaningful business insights. The dashboard provides interactive visualizations that help analyze sales performance, customer behavior, product trends, payment methods, and regional sales across different cities.
+<p align="center">
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-blue?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-success?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-005CAB?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-orange?style=for-the-badge)
+
+</p>
 
 ---
 
-## 📌 Project Overview
+## 📖 Project Overview
 
-This dashboard enables businesses to monitor their mobile sales performance through interactive reports and dynamic filtering.
+The **Mobile Sales Analysis Dashboard** is an interactive **Business Intelligence** solution developed using **Microsoft Power BI** to analyze mobile phone sales across different cities, brands, payment methods, and time periods.
 
-Users can analyze:
+The dashboard transforms raw sales data into meaningful insights, enabling businesses to monitor sales performance, identify trends, evaluate customer behavior, and make informed business decisions through interactive visualizations.
 
-- 📈 Overall Sales Performance
+---
+
+# 🎯 Dashboard Features
+
+| Dashboard Component | Description |
+|---------------------|-------------|
+| 💰 KPI Cards | Monitor Total Sales, Quantity, Transactions & Average Sales |
+| 🌍 Sales by City | Geographic visualization of sales across cities |
+| 📈 Monthly Sales Trend | Analyze quantity sold month-wise |
+| ⭐ Customer Ratings | Distribution of customer satisfaction ratings |
+| 💳 Payment Analysis | Transactions by different payment methods |
+| 📱 Mobile Model Analysis | Best-performing mobile models |
+| 📅 Day-wise Sales | Sales performance across weekdays |
+| 📋 Brand Performance | Brand-wise sales, quantity & transactions |
+| 🎛️ Month Filter | Dynamic filtering using month slicer |
+
+---
+
+# 📸 Dashboard Preview
+
+## 📱 Mobile Sales Analysis Dashboard
+
+The dashboard provides a comprehensive overview of mobile sales performance using interactive charts and KPIs.
+
+### Highlights
+
+- 💰 Total Sales
 - 📦 Total Quantity Sold
-- 💳 Transactions
-- 💰 Average Sales
-- 🏙️ Sales by City
-- 📅 Monthly Sales Trends
-- ⭐ Customer Ratings
-- 📱 Mobile Model Performance
+- 🧾 Total Transactions
+- 📊 Average Sales
+- 🌍 Sales by City
+- 📈 Monthly Quantity Trend
+- ⭐ Customer Rating Analysis
 - 💳 Payment Method Distribution
-- 📆 Sales by Day of Week
+- 📱 Sales by Mobile Model
+- 📅 Sales by Day of Week
+- 📋 Brand-wise Performance
+- 🎛️ Interactive Month Filter
+
+<img src="Images/dashboard-overview.png" width="100%">
 
 ---
 
-## 🚀 Dashboard Features
+## 📅 Monthly Filter Example
 
-### 📊 KPI Cards
+Analyze sales performance for a selected month.
 
-- Total Sales
-- Total Quantity Sold
-- Total Transactions
-- Average Sales
+<img src="Images/dashboard-january.png" width="100%">
 
 ---
 
-### 🌍 Geographic Analysis
+## 📊 Multiple Month Analysis
 
-- Total Sales by City using Map Visual
-- City-wise sales comparison
-- Interactive location filtering
+Compare sales across multiple selected months.
 
----
-
-### 📈 Trend Analysis
-
-- Monthly Quantity Trend
-- Day-wise Sales Analysis
-- Dynamic line charts
+<img src="Images/dashboard-multiple-months.png" width="100%">
 
 ---
 
-### 📱 Product Analysis
+## 🎯 Custom Filter Example
 
-- Sales by Mobile Model
-- Brand-wise Performance
-- Quantity Sold
-- Transactions
+Dynamic dashboard filtering based on user selections.
 
----
-
-### ⭐ Customer Insights
-
-- Customer Rating Distribution
-- Rating comparison across products
+<img src="Images/dashboard-filtered.png" width="100%">
 
 ---
 
-### 💳 Payment Analysis
-
-Payment Method Distribution:
-
-- UPI
-- Debit Card
-- Credit Card
-- Cash
-
----
-
-### 📅 Dynamic Filtering
-
-Users can filter dashboard using Month Slicer.
-
-Example:
-
-- January
-- February
-- March
-- ...
-- December
-
-The entire dashboard updates dynamically based on the selected month(s).
-
----
-
-## 🛠️ Tools & Technologies
-
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Modeling
-- Interactive Visualizations
-
----
-
-## 📂 Dashboard Visuals
-
-### Overall Dashboard
-
-![Dashboard](images/dashboard-overview.png)
-
----
-
-### February Analysis
-
-![February](images/dashboard-february.png)
-
----
-
-### Multi-Month Analysis
-
-![Multiple Months](images/dashboard-multiple-months.png)
-
----
-
-### Custom Filter Example
-
-![Filtered Dashboard](images/dashboard-filtered.png)
-
----
-
-## 📈 KPIs Included
+# 🚀 Key Performance Indicators
 
 | KPI | Description |
 |------|-------------|
-| Total Sales | Overall revenue generated |
-| Total Quantity | Number of products sold |
-| Transactions | Total completed transactions |
-| Average Sales | Average revenue per transaction |
+| 💰 Total Sales | Overall Revenue Generated |
+| 📦 Total Quantity | Total Mobile Units Sold |
+| 🧾 Total Transactions | Number of Transactions |
+| 📊 Average Sales | Average Revenue per Transaction |
 
 ---
 
-## 📊 Visualizations Used
+# 📊 Visualizations Used
 
-- KPI Cards
-- Line Chart
-- Pie Chart
-- Bar Chart
-- Map Visual
-- Table
-- Slicer
-- Interactive Filters
+- ✅ KPI Cards
+- ✅ Line Chart
+- ✅ Pie Chart
+- ✅ Bar Chart
+- ✅ Table
+- ✅ Map Visualization
+- ✅ Slicers
+- ✅ Interactive Filters
 
 ---
 
-## 📁 Dataset
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Microsoft Power BI | Dashboard Development |
+| Power Query | Data Cleaning & Transformation |
+| DAX | Measures & Calculations |
+| Data Modeling | Relationship Management |
+| Excel | Dataset |
+
+---
+
+# 📂 Dataset
 
 The dataset contains information related to:
 
-- Mobile Brand
-- Mobile Model
-- City
-- Sales
-- Quantity
-- Transaction ID
-- Customer Rating
-- Payment Method
-- Date
+- 📅 Order Date
+- 🌍 City
+- 📱 Mobile Brand
+- 📱 Mobile Model
+- 💰 Sales Amount
+- 📦 Quantity Sold
+- ⭐ Customer Rating
+- 💳 Payment Method
+- 🧾 Transaction ID
 
 ---
 
-## 🔍 Business Insights
+# 💡 Business Insights
 
-Some key insights generated from the dashboard include:
+The dashboard helps answer important business questions such as:
 
-- Identify top-performing cities.
-- Monitor monthly sales trends.
-- Compare sales across different mobile brands.
-- Analyze customer ratings.
-- Track preferred payment methods.
-- Evaluate product performance.
-- Understand day-wise sales patterns.
-
----
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-- Data Cleaning using Power Query
-- Data Modeling
-- Creating Relationships
-- Writing DAX Measures
-- Interactive Dashboard Design
-- KPI Development
-- Business Intelligence Reporting
-- Data Visualization Best Practices
+- 🌍 Which cities generate the highest sales?
+- 📱 Which mobile brands perform the best?
+- 📈 How does sales quantity vary month by month?
+- 💳 Which payment method is preferred by customers?
+- ⭐ What is the distribution of customer ratings?
+- 📅 Which days generate the highest sales?
+- 📱 Which mobile models contribute the most revenue?
+- 📦 Which brands sell the highest quantity of products?
 
 ---
 
-## 📸 Screenshots
+# 🎓 Skills Demonstrated
 
-### Dashboard Overview
-
-<img src="images/dashboard-overview.png" width="100%">
-
-### Monthly Filter
-
-<img src="images/dashboard-february.png" width="100%">
-
-### Multi-Selection Filter
-
-<img src="images/dashboard-multiple-months.png" width="100%">
-
-### Filtered Dashboard
-
-<img src="images/dashboard-filtered.png" width="100%">
+- ✔ Data Cleaning using Power Query
+- ✔ Data Transformation
+- ✔ Data Modeling
+- ✔ DAX Measures
+- ✔ Calculated Columns
+- ✔ KPI Development
+- ✔ Interactive Dashboard Design
+- ✔ Business Intelligence
+- ✔ Data Visualization
+- ✔ Data Storytelling
 
 ---
 
-## 📌 Future Improvements
+# 📁 Project Structure
 
-- Add Year Filter
-- Add Profit Analysis
-- Add Customer Segmentation
-- Add Forecasting
-- Add Drill-through Pages
-- Add Tooltip Pages
-- Add Mobile Responsive Layout
+```text
+Mobile-Sales-Analysis/
+│
+├── Dashboard/
+│   └── Mobile Sales Analysis.pbix
+│
+├── Dataset/
+│   └── Mobile Sales Dataset.xlsx
+│
+├── Images/
+│   ├── dashboard-overview.png
+│   ├── dashboard-january.png
+│   ├── dashboard-multiple-months.png
+│   └── dashboard-filtered.png
+│
+├── README.md
+└── LICENSE
+```
 
 ---
 
-## 📬 Connect With Me
+# 🔮 Future Improvements
+
+- 📈 Profit Analysis Dashboard
+- 📊 Sales Forecasting
+- 🌍 State-wise Sales Analysis
+- 📱 Brand Comparison Dashboard
+- 🎯 Drill-through Pages
+- 💡 Custom Tooltips
+- 📲 Mobile Responsive Layout
+- 🔐 Row-Level Security (RLS)
+
+---
+
+# 👨‍💻 About This Project
+
+This project demonstrates an **end-to-end Business Intelligence workflow** using **Microsoft Power BI**, covering data cleaning, transformation, data modeling, DAX calculations, and interactive dashboard development.
+
+The dashboard provides a complete overview of mobile sales performance, helping businesses monitor KPIs, identify sales trends, analyze customer behavior, and make informed strategic decisions through data visualization.
+
+---
+
+# 📬 Connect With Me
 
 **Pawan Sain**
 
-- LinkedIn: https://www.linkedin.com/in/pawan-sain-18b74631b/
-- GitHub: https://github.com/UnplannedCoder
+💼 LinkedIn: https://www.linkedin.com/in/pawan-sain-18b74631b/
+
+💻 GitHub: https://github.com/UnplannedCoder
 
 ---
 
-## ⭐ If you found this project helpful, don't forget to Star the repository!
+<p align="center">
+
+### ⭐ If you found this project helpful, consider giving it a Star on GitHub!
+
+</p>
